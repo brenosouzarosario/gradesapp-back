@@ -5,6 +5,7 @@ import cors from 'cors';
 import { gradeRouter } from './routes/gradeRouter.js';
 import { logger } from './config/logger.js';
 import { db } from './models/index.js';
+import 'dotenv';
 
 (async() => {
     try {
